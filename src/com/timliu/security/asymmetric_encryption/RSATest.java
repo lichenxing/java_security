@@ -10,15 +10,9 @@ import java.security.interfaces.RSAPublicKey;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 
-import javax.crypto.Cipher;
-import javax.crypto.KeyAgreement;
-import javax.crypto.SecretKey;
-import javax.crypto.interfaces.DHPublicKey;
-import javax.crypto.spec.DHParameterSpec;
+import javax.crypto.*;
 
 import org.apache.commons.codec.binary.Base64;
-
-import com.sun.org.apache.xalan.internal.utils.Objects;
 
 public class RSATest 
 {
